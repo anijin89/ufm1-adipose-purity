@@ -1,0 +1,23 @@
+# Local raw inputs and generated intermediates (not committed; see README)
+data/
+results/
+figures/
+logs_*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Large platform dumps (redownload from GEO by accession)
+*.part.gz
+*.part.txt
