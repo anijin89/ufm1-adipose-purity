@@ -1,0 +1,43 @@
+{
+  "title": "Purity bias masquerades as an adiposity signal in purified human adipocytes, while adipose-tissue UFM1 tracks eIF2α/PERK-dependent ER stress and the UFMylation imbalance index normalises after bariatric surgery: a multi-cohort transcriptomic study",
+  "creators": [
+    {
+      "name": "Cao, Lixin",
+      "orcid": "0009-0001-9646-3549",
+      "affiliation": "Xipu Subdistrict Community Health Service Center, Pidu District, Chengdu, Sichuan, China"
+    },
+    {
+      "name": "Liu, Shuang",
+      "orcid": "0009-0002-6870-0145",
+      "affiliation": "Xipu Subdistrict Community Health Service Center, Pidu District, Chengdu, Sichuan, China"
+    },
+    {
+      "name": "Qi, Jun",
+      "orcid": "0009-0006-3540-3995",
+      "affiliation": "Xipu Subdistrict Community Health Service Center, Pidu District, Chengdu, Sichuan, China"
+    },
+    {
+      "name": "Luo, Dan",
+      "orcid": "0009-0000-7698-1122",
+      "affiliation": "Chongqing Yubei District Hospital of Traditional Chinese Medicine, Chongqing, China"
+    }
+  ],
+  "description": "<p>Reproducible analysis code and per-figure/per-table source data for a pure re-analysis (no new samples) of publicly available human adipose-tissue transcriptomic datasets.</p><p>The study's central methodological finding is that an apparent UFM1&ndash;adiposity association observed in <em>purified</em> mature adipocytes is a <strong>cell-composition (purity) artefact</strong>: once a non-adipocyte contamination axis and a technical/housekeeping axis are partialled out, the association collapses. In bulk adipose tissue, by contrast, UFM1 reproducibly tracks eIF2&alpha;/PERK-dependent endoplasmic-reticulum stress across independent cohorts, and a composite UFMylation imbalance index normalises after bariatric surgery.</p><p><strong>Data provenance (all third-party and public):</strong> GEO accessions GSE70353 (discovery, n=770), GSE176171 (single-nucleus atlas), GSE174475 (purified adipocytes), GSE245948 (independent RNA-seq), GSE59034, GSE72158 and GSE53376 (paired bariatric-surgery cohorts); and eQTL Catalogue QTD000116 (GTEx V8 subcutaneous adipose) for the <em>UFM1</em> cis-eQTL query. Raw inputs are not bundled; see the repository README for file names and reproduction steps.</p><p><strong>Software:</strong> Python (pandas, numpy, scipy, statsmodels, scikit-learn, matplotlib, gseapy); pinned versions in <code>code/requirements.txt</code>. Ensembl identifiers were verified against Ensembl xrefs/symbol and mygene (species = Homo sapiens).</p><p>This deposit accompanies a manuscript submitted to PeerJ.</p>",
+  "keywords": [
+    "Adipose tissue",
+    "Endoplasmic reticulum stress",
+    "Obesity",
+    "Bariatric surgery",
+    "Unfolded protein response",
+    "UFM1",
+    "UFMylation",
+    "transcriptomics",
+    "purity artefact",
+    "bioinformatics"
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "language": "eng",
+  "access_right": "open",
+  "notes": "Analysis code and source data only. The underlying biological datasets remain the property of their original GEO / eQTL Catalogue deposits."
+}
